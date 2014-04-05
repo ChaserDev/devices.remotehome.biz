@@ -1,0 +1,116 @@
+[Sat Apr 05 13:55:30 2014] [error] [client 122.61.116.46] Directory index forbidden by Options directive: /var/www/devices.remotehome.biz/htdocs/
+[Sat Apr 05 13:55:30 2014] [error] [client 122.61.116.46] File does not exist: /var/www/devices.remotehome.biz/htdocs/favicon.ico
+[Sat Apr 05 13:55:55 2014] [error] [client 122.61.116.46] Directory index forbidden by Options directive: /var/www/devices.remotehome.biz/htdocs/
+[Sat Apr 05 13:56:32 2014] [error] [client 122.61.116.46] script '/var/www/devices.remotehome.biz/htdocs/index.php' not found or unable to stat
+[Sat Apr 05 14:05:02 2014] [error] [client 122.61.116.46] (13)Permission denied: exec of '/var/www/devices.remotehome.biz/public_html/cgi-bin/first.pl' failed
+[Sat Apr 05 14:05:02 2014] [error] [client 122.61.116.46] Premature end of script headers: first.pl
+[Sat Apr 05 14:14:59 2014] [error] [client 122.61.116.46] (13)Permission denied: exec of '/var/www/devices.remotehome.biz/public_html/cgi-bin/first.py' failed
+[Sat Apr 05 14:14:59 2014] [error] [client 122.61.116.46] Premature end of script headers: first.py
+[Sat Apr 05 14:27:42 2014] [error] [client 122.61.116.46] Traceback (most recent call last):
+[Sat Apr 05 14:27:42 2014] [error] [client 122.61.116.46]   File "/var/www/devices.remotehome.biz/public_html/cgi-bin/first.py", line 14, in <module>
+[Sat Apr 05 14:27:42 2014] [error] [client 122.61.116.46]     fo = open("data", "wb")
+[Sat Apr 05 14:27:42 2014] [error] [client 122.61.116.46] IOError: [Errno 13] Permission denied: 'data'
+[Sat Apr 05 14:27:42 2014] [error] [client 122.61.116.46] Premature end of script headers: first.py
+[Sat Apr 05 14:28:58 2014] [error] [client 122.61.116.46] Traceback (most recent call last):
+[Sat Apr 05 14:28:58 2014] [error] [client 122.61.116.46]   File "/var/www/devices.remotehome.biz/public_html/cgi-bin/first.py", line 14, in <module>
+[Sat Apr 05 14:28:58 2014] [error] [client 122.61.116.46]     fo = open("/var/www/devices.remotehome.biz/htdocs/data", "wb")
+[Sat Apr 05 14:28:58 2014] [error] [client 122.61.116.46] IOError: [Errno 2] No such file or directory: '/var/www/devices.remotehome.biz/htdocs/data'
+[Sat Apr 05 14:28:58 2014] [error] [client 122.61.116.46] Premature end of script headers: first.py
+[Sat Apr 05 14:29:48 2014] [error] [client 122.61.116.46] Traceback (most recent call last):
+[Sat Apr 05 14:29:48 2014] [error] [client 122.61.116.46]   File "/var/www/devices.remotehome.biz/public_html/cgi-bin/first.py", line 14, in <module>
+[Sat Apr 05 14:29:48 2014] [error] [client 122.61.116.46]     fo = open("/var/www/devices.remotehome.biz/htdocs/test.txt", "wb")
+[Sat Apr 05 14:29:48 2014] [error] [client 122.61.116.46] IOError: [Errno 2] No such file or directory: '/var/www/devices.remotehome.biz/htdocs/test.txt'
+[Sat Apr 05 14:29:48 2014] [error] [client 122.61.116.46] Premature end of script headers: first.py
+[Sat Apr 05 14:29:50 2014] [error] [client 122.61.116.46] Traceback (most recent call last):
+[Sat Apr 05 14:29:50 2014] [error] [client 122.61.116.46]   File "/var/www/devices.remotehome.biz/public_html/cgi-bin/first.py", line 14, in <module>
+[Sat Apr 05 14:29:50 2014] [error] [client 122.61.116.46]     fo = open("/var/www/devices.remotehome.biz/htdocs/test.txt", "wb")
+[Sat Apr 05 14:29:50 2014] [error] [client 122.61.116.46] IOError: [Errno 2] No such file or directory: '/var/www/devices.remotehome.biz/htdocs/test.txt'
+[Sat Apr 05 14:29:50 2014] [error] [client 122.61.116.46] Premature end of script headers: first.py
+[Sat Apr 05 14:29:51 2014] [error] [client 122.61.116.46] Traceback (most recent call last):
+[Sat Apr 05 14:29:51 2014] [error] [client 122.61.116.46]   File "/var/www/devices.remotehome.biz/public_html/cgi-bin/first.py", line 14, in <module>
+[Sat Apr 05 14:29:51 2014] [error] [client 122.61.116.46]     fo = open("/var/www/devices.remotehome.biz/htdocs/test.txt", "wb")
+[Sat Apr 05 14:29:51 2014] [error] [client 122.61.116.46] IOError: [Errno 2] No such file or directory: '/var/www/devices.remotehome.biz/htdocs/test.txt'
+[Sat Apr 05 14:29:51 2014] [error] [client 122.61.116.46] Premature end of script headers: first.py
+[Sat Apr 05 14:30:38 2014] [error] [client 122.61.116.46] Traceback (most recent call last):
+[Sat Apr 05 14:30:38 2014] [error] [client 122.61.116.46]   File "/var/www/devices.remotehome.biz/public_html/cgi-bin/first.py", line 14, in <module>
+[Sat Apr 05 14:30:38 2014] [error] [client 122.61.116.46]     fo = open("/var/www/devices.remotehome.biz/htdocs/test.txt", "wb")
+[Sat Apr 05 14:30:38 2014] [error] [client 122.61.116.46] IOError: [Errno 2] No such file or directory: '/var/www/devices.remotehome.biz/htdocs/test.txt'
+[Sat Apr 05 14:30:38 2014] [error] [client 122.61.116.46] Premature end of script headers: first.py
+[Sat Apr 05 14:30:39 2014] [error] [client 122.61.116.46] Traceback (most recent call last):
+[Sat Apr 05 14:30:39 2014] [error] [client 122.61.116.46]   File "/var/www/devices.remotehome.biz/public_html/cgi-bin/first.py", line 14, in <module>
+[Sat Apr 05 14:30:39 2014] [error] [client 122.61.116.46]     fo = open("/var/www/devices.remotehome.biz/htdocs/test.txt", "wb")
+[Sat Apr 05 14:30:39 2014] [error] [client 122.61.116.46] IOError: [Errno 2] No such file or directory: '/var/www/devices.remotehome.biz/htdocs/test.txt'
+[Sat Apr 05 14:30:39 2014] [error] [client 122.61.116.46] Premature end of script headers: first.py
+[Sat Apr 05 14:30:41 2014] [error] [client 122.61.116.46] Traceback (most recent call last):
+[Sat Apr 05 14:30:41 2014] [error] [client 122.61.116.46]   File "/var/www/devices.remotehome.biz/public_html/cgi-bin/first.py", line 14, in <module>
+[Sat Apr 05 14:30:41 2014] [error] [client 122.61.116.46]     fo = open("/var/www/devices.remotehome.biz/htdocs/test.txt", "wb")
+[Sat Apr 05 14:30:41 2014] [error] [client 122.61.116.46] IOError: [Errno 2] No such file or directory: '/var/www/devices.remotehome.biz/htdocs/test.txt'
+[Sat Apr 05 14:30:41 2014] [error] [client 122.61.116.46] Premature end of script headers: first.py
+[Sat Apr 05 14:30:59 2014] [error] [client 122.61.116.46] Traceback (most recent call last):
+[Sat Apr 05 14:30:59 2014] [error] [client 122.61.116.46]   File "/var/www/devices.remotehome.biz/public_html/cgi-bin/first.py", line 14, in <module>
+[Sat Apr 05 14:30:59 2014] [error] [client 122.61.116.46]     fo = open("/var/www/devices.remotehome.biz/htdocs/test.txt", "wb")
+[Sat Apr 05 14:30:59 2014] [error] [client 122.61.116.46] IOError: [Errno 2] No such file or directory: '/var/www/devices.remotehome.biz/htdocs/test.txt'
+[Sat Apr 05 14:30:59 2014] [error] [client 122.61.116.46] Premature end of script headers: first.py
+[Sat Apr 05 14:33:36 2014] [error] [client 122.61.116.46] Traceback (most recent call last):
+[Sat Apr 05 14:33:36 2014] [error] [client 122.61.116.46]   File "/var/www/devices.remotehome.biz/public_html/cgi-bin/first.py", line 14, in <module>
+[Sat Apr 05 14:33:36 2014] [error] [client 122.61.116.46]     fo = open("/var/www/devices.remotehome.biz/htdocs/test.txt", "wb")
+[Sat Apr 05 14:33:36 2014] [error] [client 122.61.116.46] IOError: [Errno 2] No such file or directory: '/var/www/devices.remotehome.biz/htdocs/test.txt'
+[Sat Apr 05 14:33:36 2014] [error] [client 122.61.116.46] Premature end of script headers: first.py
+[Sat Apr 05 14:33:44 2014] [error] [client 122.61.116.46] Traceback (most recent call last):
+[Sat Apr 05 14:33:44 2014] [error] [client 122.61.116.46]   File "/var/www/devices.remotehome.biz/public_html/cgi-bin/first.py", line 14, in <module>
+[Sat Apr 05 14:33:44 2014] [error] [client 122.61.116.46]     fo = open("/var/www/devices.remotehome.biz/htdocs/test.txt", "wb")
+[Sat Apr 05 14:33:44 2014] [error] [client 122.61.116.46] IOError: [Errno 2] No such file or directory: '/var/www/devices.remotehome.biz/htdocs/test.txt'
+[Sat Apr 05 14:33:44 2014] [error] [client 122.61.116.46] Premature end of script headers: first.py
+[Sat Apr 05 14:35:07 2014] [error] [client 122.61.116.46]   File "/var/www/devices.remotehome.biz/public_html/cgi-bin/first.py", line 27
+[Sat Apr 05 14:35:07 2014] [error] [client 122.61.116.46]     fileOutput.write(form.getValue'(last_name'))
+[Sat Apr 05 14:35:07 2014] [error] [client 122.61.116.46]                                              ^
+[Sat Apr 05 14:35:07 2014] [error] [client 122.61.116.46] SyntaxError: invalid syntax
+[Sat Apr 05 14:35:07 2014] [error] [client 122.61.116.46] Premature end of script headers: first.py
+[Sat Apr 05 14:36:03 2014] [error] [client 122.61.116.46]   File "/var/www/devices.remotehome.biz/public_html/cgi-bin/first.py", line 27
+[Sat Apr 05 14:36:03 2014] [error] [client 122.61.116.46]     fileOutput.write(form.getValue'(last_name'))
+[Sat Apr 05 14:36:03 2014] [error] [client 122.61.116.46]                                              ^
+[Sat Apr 05 14:36:03 2014] [error] [client 122.61.116.46] SyntaxError: invalid syntax
+[Sat Apr 05 14:36:03 2014] [error] [client 122.61.116.46] Premature end of script headers: first.py
+[Sat Apr 05 14:36:58 2014] [error] [client 122.61.116.46]   File "/var/www/devices.remotehome.biz/public_html/cgi-bin/first.py", line 27
+[Sat Apr 05 14:36:58 2014] [error] [client 122.61.116.46]     fileOutput.write(form.getValue'(last_name'))
+[Sat Apr 05 14:36:58 2014] [error] [client 122.61.116.46]                                              ^
+[Sat Apr 05 14:36:58 2014] [error] [client 122.61.116.46] SyntaxError: invalid syntax
+[Sat Apr 05 14:36:58 2014] [error] [client 122.61.116.46] Premature end of script headers: first.py
+[Sat Apr 05 14:37:15 2014] [error] [client 122.61.116.46]   File "/var/www/devices.remotehome.biz/public_html/cgi-bin/first.py", line 27
+[Sat Apr 05 14:37:15 2014] [error] [client 122.61.116.46]     fileOutput.write(form.getValue'(last_name'))
+[Sat Apr 05 14:37:15 2014] [error] [client 122.61.116.46]                                              ^
+[Sat Apr 05 14:37:15 2014] [error] [client 122.61.116.46] SyntaxError: invalid syntax
+[Sat Apr 05 14:37:15 2014] [error] [client 122.61.116.46] Premature end of script headers: first.py
+[Sat Apr 05 14:37:16 2014] [error] [client 122.61.116.46]   File "/var/www/devices.remotehome.biz/public_html/cgi-bin/first.py", line 27
+[Sat Apr 05 14:37:16 2014] [error] [client 122.61.116.46]     fileOutput.write(form.getValue'(last_name'))
+[Sat Apr 05 14:37:16 2014] [error] [client 122.61.116.46]                                              ^
+[Sat Apr 05 14:37:16 2014] [error] [client 122.61.116.46] SyntaxError: invalid syntax
+[Sat Apr 05 14:37:16 2014] [error] [client 122.61.116.46] Premature end of script headers: first.py
+[Sat Apr 05 14:45:35 2014] [error] [client 122.61.116.46] Traceback (most recent call last):
+[Sat Apr 05 14:45:35 2014] [error] [client 122.61.116.46]   File "/var/www/devices.remotehome.biz/public_html/cgi-bin/first.py", line 4, in <module>
+[Sat Apr 05 14:45:35 2014] [error] [client 122.61.116.46]     import cgi, cgitb, MySQLdb 
+[Sat Apr 05 14:45:35 2014] [error] [client 122.61.116.46] ImportError: No module named MySQLdb
+[Sat Apr 05 14:45:35 2014] [error] [client 122.61.116.46] Premature end of script headers: first.py
+[Sat Apr 05 14:45:40 2014] [error] [client 122.61.116.46] Traceback (most recent call last):
+[Sat Apr 05 14:45:40 2014] [error] [client 122.61.116.46]   File "/var/www/devices.remotehome.biz/public_html/cgi-bin/first.py", line 4, in <module>
+[Sat Apr 05 14:45:40 2014] [error] [client 122.61.116.46]     import cgi, cgitb, MySQLdb 
+[Sat Apr 05 14:45:40 2014] [error] [client 122.61.116.46] ImportError: No module named MySQLdb
+[Sat Apr 05 14:45:40 2014] [error] [client 122.61.116.46] Premature end of script headers: first.py
+[Sat Apr 05 15:00:19 2014] [error] [client 122.61.116.46] (13)Permission denied: exec of '/var/www/devices.remotehome.biz/public_html/cgi-bin/mysql.pl' failed
+[Sat Apr 05 15:00:19 2014] [error] [client 122.61.116.46] Premature end of script headers: mysql.pl
+[Sat Apr 05 15:00:21 2014] [error] [client 122.61.116.46] (13)Permission denied: exec of '/var/www/devices.remotehome.biz/public_html/cgi-bin/mysql.pl' failed
+[Sat Apr 05 15:00:21 2014] [error] [client 122.61.116.46] Premature end of script headers: mysql.pl
+[Sat Apr 05 15:00:58 2014] [error] [client 122.61.116.46] Can't locate Mysql.pm in @INC (@INC contains: /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at /var/www/devices.remotehome.biz/public_html/cgi-bin/mysql.pl line 3.
+[Sat Apr 05 15:00:58 2014] [error] [client 122.61.116.46] BEGIN failed--compilation aborted at /var/www/devices.remotehome.biz/public_html/cgi-bin/mysql.pl line 3.
+[Sat Apr 05 15:00:58 2014] [error] [client 122.61.116.46] Premature end of script headers: mysql.pl
+[Sat Apr 05 15:01:00 2014] [error] [client 122.61.116.46] Can't locate Mysql.pm in @INC (@INC contains: /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at /var/www/devices.remotehome.biz/public_html/cgi-bin/mysql.pl line 3.
+[Sat Apr 05 15:01:00 2014] [error] [client 122.61.116.46] BEGIN failed--compilation aborted at /var/www/devices.remotehome.biz/public_html/cgi-bin/mysql.pl line 3.
+[Sat Apr 05 15:01:00 2014] [error] [client 122.61.116.46] Premature end of script headers: mysql.pl
+[Sat Apr 05 15:04:04 2014] [error] [client 122.61.116.46] Can't locate object method "connect" via package "Mysql" (perhaps you forgot to load "Mysql"?) at /var/www/devices.remotehome.biz/public_html/cgi-bin/mysql.pl line 17.
+[Sat Apr 05 15:09:00 2014] [error] [client 122.61.116.46] DBI connect('devices:localhost','charlal1',...) failed: Unknown database 'devices' at /var/www/devices.remotehome.biz/public_html/cgi-bin/insert.pl line 23
+[Sat Apr 05 15:09:00 2014] [error] [client 122.61.116.46] Can't call method "prepare" on an undefined value at /var/www/devices.remotehome.biz/public_html/cgi-bin/insert.pl line 27.
+[Sat Apr 05 15:09:10 2014] [error] [client 122.61.116.46] DBI connect('devices:localhost','charlal1',...) failed: Unknown database 'devices' at /var/www/devices.remotehome.biz/public_html/cgi-bin/insert.pl line 23
+[Sat Apr 05 15:09:10 2014] [error] [client 122.61.116.46] Can't call method "prepare" on an undefined value at /var/www/devices.remotehome.biz/public_html/cgi-bin/insert.pl line 27.
+[Sat Apr 05 16:41:55 2014] [error] [client 69.171.234.114] script not found or unable to stat: /var/www/devices.remotehome.biz/public_html/cgi-bin/insert.cgi
+[Sat Apr 05 16:43:33 2014] [error] [client 119.224.32.141] File does not exist: /var/www/devices.remotehome.biz/public_html/htdocs/favicon.ico
+[Sat Apr 05 16:43:33 2014] [error] [client 119.224.32.141] File does not exist: /var/www/devices.remotehome.biz/public_html/htdocs/favicon.ico
